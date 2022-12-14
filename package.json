@@ -1,0 +1,31 @@
+{
+  "name": "app_integracion_angular_nodejs",
+  "version": "1.0.0",
+  "description": "Proyecto final del curso, contiene la integracion del backend con la app de angular.",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julietaorbaraacc/App_Integracion_Angular_NodeJS.git"
+  },
+  "author": "Pepita Ronderos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/julietaorbaraacc/App_Integracion_Angular_NodeJS/issues"
+  },
+  "homepage": "https://github.com/julietaorbaraacc/App_Integracion_Angular_NodeJS#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-validator": "^6.14.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.7.2",
+    "uuid": "^9.0.0"
+  }
+}
